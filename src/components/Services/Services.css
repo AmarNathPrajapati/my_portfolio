@@ -1,0 +1,35 @@
+.services{
+    height: 90vh;
+    display: flex;
+    padding: 1rem 2rem;
+}
+.projectDesc{
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.projectDesc>:nth-child(1){
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.projectDesc>:nth-child(2){
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(177, 27, 207);
+}
+.projectCard>:nth-child(3){
+    font-size: 15px;
+    color: rgb(51, 49, 49);
+}
+.s-button{
+    width: 6rem;
+}
+.projectCard{
+    flex: 1;
+
+}
+.service2{
+    position:absolute;
+    top:10rem;
+}

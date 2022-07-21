@@ -1,0 +1,95 @@
+.mm-project{
+    height: 125vh;
+    margin-top: 3rem;
+    padding: 0 3rem; 
+    display: flex;
+}
+.mm-right{
+    flex: 1;
+}
+.mm-secCircle>a>img{
+    height: 6rem;
+    transform: scale(0.5);
+}
+.mm-right{
+    position: relative;
+}
+.mm-maincircle{
+    position: relative;
+    left: 9rem;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    /* box-shadow: 15rem 15rem 5rem 5rem rgb(241, 162, 133); */
+    background-color: aqua;
+    top: 3rem;
+}
+.mm-maincircle>*{
+    position: absolute;
+}
+.mm-maincircle>:nth-child(1){
+    top: -1.5rem;
+    left: 7.5rem;
+}
+.mm-maincircle>:nth-child(2){
+    left: -1rem;
+    top: 5rem;
+}
+.mm-maincircle>:nth-child(3){
+    top: 8rem;
+    left: 7rem;
+}
+.mm-maincircle>:nth-child(4){
+    top: 5rem;
+    left: 15.5rem;
+}
+.mm-maincircle>:nth-child(5){
+    top: 14rem;
+    left: 13rem;
+}
+.mm-maincircle>:nth-child(6){
+    top: 14rem;
+    right: 12.5rem;
+}
+.mm-secCircle{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m-backCircle{
+    position:absolute;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.blueCircle{
+    background-color: blue;
+    left: 18rem;
+    top: 0rem;
+}
+.voiletCircle{
+    background-color: rgb(124, 23, 133);
+    left: 18rem;
+    top: 13rem;
+}
+/* .yellowCircle{
+    background-color: rgb(255, 251, 0);
+    right: 6rem;
+    top: 0rem;
+} */
+/* .redCircle{
+    background-color: rgb(240, 13, 13);
+    right: 6rem;
+    top: 13rem;
+} */
+blockquote{
+    font-size: 0.75rem;
+}
+blockquote>*{
+    font-size: 0.75rem;
+}

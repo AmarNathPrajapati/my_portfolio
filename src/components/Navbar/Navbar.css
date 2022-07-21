@@ -1,0 +1,30 @@
+.navbar{
+    /* position:fixed; */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.n-left{
+    flex: 1; /*left and right take equal with*/
+    display: flex;
+    gap: 2rem;
+    align-items: center; 
+}
+.n-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.n-right>.n-list{
+    flex: 10;
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    list-style: none;
+    cursor: pointer;
+}
+.n-list li:hover{
+    cursor: pointer;
+    color: rgb(194, 98, 241);
+}
