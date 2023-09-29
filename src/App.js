@@ -1,4 +1,5 @@
 import './App.css';
+import Carousel from './components/Carousel/Carousel';
 
 import Certificate from './components/Certificate/Certificate';
 import Contact from './components/Contact/Contact';
@@ -23,6 +24,7 @@ function App() {
   }}
     >
         <Navbar/>
+        <Carousel/>
         <Intro/>
         <Education/>
         <Services/>
